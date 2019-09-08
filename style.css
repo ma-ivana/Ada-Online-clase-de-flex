@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+}
+
+main {
+  display: flex;
+}
+
+section {
+  width: 70%;
+}
+
+aside {
+  width: 30%
+}
+
+.card {
+  border: 1px solid black;
+  margin: 16px;
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-text {
+  padding: 16px;
+}
